@@ -1,0 +1,75 @@
+{
+	"id": "xprod2503",
+	"contentProperties": {
+		"shortDescription": {
+			"value": [
+				"My short description",
+				"My short description2"
+			],
+			"type": "string"
+		},
+		"longDescription": {
+			"value": [
+				"My very long description"
+			],
+			"type": "big string"
+		},
+		"bestSeller": {
+			"value": [
+				1,
+				2,
+				3
+			],
+			"type": "int"
+		},
+		"newProduct": {
+			"value": [
+				0.34,
+				0.2
+			],
+			"type": "double"
+		},
+		"Age": {
+			"value": true,
+			"type": "boolean"
+		}
+	},
+	"specsProperties": {
+		"specKey1": {
+			"value": [
+				"value1",
+				"value2",
+				"value3"
+			],
+			"type": "string"
+		},
+		"specKey2": {
+			"value": [
+				"value3",
+				"value2",
+				"value4"
+			],
+			"type": "string"
+		}
+	},
+	"childSkus": [
+		{
+			"skuId": "xsku2503_1",
+			"mediaProperties": {
+				"heroImage": "https://tinyurl.com/y7de7wcu",
+				"thumbnailImage": "https://tinyurl.com/y7de7wcu",
+				"video": "https://tinyurl.com/ydynz7z3",
+				"extraImages": {
+					"image1": {
+						"thumbnail": "https://tinyurl.com/yaw79n3v",
+						"image": "https://tinyurl.com/yaw79n3v"
+					},
+					"image2": {
+						"thumbnail": "https://tinyurl.com/y7xq2bne",
+						"image": "https://tinyurl.com/y7xq2bne"
+					}
+				}
+			}
+		}
+	]
+} 

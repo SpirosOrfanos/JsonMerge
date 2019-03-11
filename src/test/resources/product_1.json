@@ -1,0 +1,53 @@
+{
+		"id": "100",
+		"sapCategoryId": "3203001",		
+		"variants": [
+			"color",
+			"size"
+		],
+		"contentProperties": {
+			"shortDescription": {
+				"value": ["My short description", "My short description2"],
+				"type": "string"
+			},
+			"longDescription": {
+				"value": ["My very long description"],
+				"type": "big string"
+			}
+
+		},
+		"specsProperties": {
+			"specKey1": {
+				"value": ["value1", "value2", "value3"],
+				"type": "string"			
+			},
+			"specKey2": {
+				"value": ["value3", "value2", "value4"],
+				"type": "string"			
+			}
+		},
+		"childSkus": [
+			{
+				"skuId": "100123",				
+				"size": "16gb",
+				"mediaProperties": {
+					"thumbnailImage": "//www.example.com/thumbImage.jpg",
+					"video": "//youtube.com/video1",
+					"extraImages": {
+						"image1" : {
+							"thumbnail": "//www.public.gr/extraThumbimage1.jpg",
+							"image": "//www.public.gr/extraimage1.jpg"
+						},
+						"image2" : {
+							"thumbnail": "//www.public.gr/extraThumbimage1.jpg",
+							"image": "//www.public.gr/extraimage1.jpg"
+						},
+						"image5" : {
+							"thumbnail": "//www.public.gr/extraThumbimage1ww.jpg",
+							"image": "//www.public.gr/extraimage1.jpg"
+						}
+					}
+				}
+			}
+		]
+	}

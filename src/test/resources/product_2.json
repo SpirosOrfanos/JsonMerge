@@ -1,0 +1,85 @@
+{
+		"id": "100",
+		"sapCategoryId": "3203001",
+		"siteID": [
+			"Public-B2C",
+			"Public-B2B"
+		],
+		"title": "iPhone X",
+		"contentProperties": {
+			"longDescription": {
+				"value": ["My very very long description"],
+				"type": "big string"
+			},
+			"bestSeller": {
+				"value": [1,2,3],
+				"type": "int"
+			},
+			"newProduct": {
+				"value": [0.34,0.2],
+				"type": "double"
+			},
+			"Age": {
+				"value": true,
+				"type": "boolean"
+			}
+
+		},
+		"childSkus": [
+			{
+				"skuId": "100123",
+				"title": "iPhone X SKU black",
+				"color": "black",
+				"mediaProperties": {
+					"video": "//youtube.com/video13444",
+					"extraImages": {
+						"image3" : {
+							"thumbnail": "//www.public.gr/extraThumbimage1.jpg",
+							"image": "//www.public.gr/extraimage1.jpg"
+						},
+						"image4" : {
+							"thumbnail": "//www.public.gr/extraThumbimage1.jpg",
+							"image": "//www.public.gr/extraimage1.jpg"
+						},
+						"image5" : {
+							"thumbnail": "//www.public.gr/extraThumbimage1ww3333.jpg",
+							"image": "//www.public.gr/extraimage1.jpg"
+						}
+					}
+				}
+			},
+			{
+				"skuId": "100124",
+				"title": "iPhone X SKU white",
+				"color": "white",
+				"size": "256gb",
+				"mediaProperties": {
+					"heroImage": "//www.example.com/heroImage.jpg",
+					"thumbnailImage": "//www.example.com/thumbImage.jpg",
+					"video": "//youtube.com/video1-1",
+					"extraImages": {
+						"image1" : {
+							"thumbnail": "//www.public.gr/extraThumbimage1.jpg",
+							"image": "//www.public.gr/extraimage1.jpg"
+						},
+						"image2" : {
+							"thumbnail": "//www.public.gr/extraThumbimage1.jpg",
+							"image": "//www.public.gr/extraimage1.jpg"
+						},
+						"image3" : {
+							"thumbnail": "//www.public.gr/extraThumbimage1.jpg",
+							"image": "//www.public.gr/extraimage1.jpg"
+						},
+						"image4" : {
+							"thumbnail": "//www.public.gr/extraThumbimage1.jpg",
+							"image": "//www.public.gr/extraimage1.jpg"
+						},
+						"image5" : {
+							"thumbnail": "//www.public.gr/extraThumbimage1.jpg",
+							"image": "//www.public.gr/extraimage1.jpg"
+						}
+					}
+				}
+			}
+		]
+	}
